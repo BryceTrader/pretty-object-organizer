@@ -1,0 +1,24 @@
+{
+  "name": "pretty-object-organizer",
+  "version": "1.0.0",
+  "description": "Custom object console.log organizer",
+  "main": "PrettyObjectOrganizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceTrader/pretty-object-organizer.git"
+  },
+  "keywords": [
+    "pretty",
+    "object",
+    "organizer"
+  ],
+  "author": "Bryce Trader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryceTrader/pretty-object-organizer/issues"
+  },
+  "homepage": "https://github.com/BryceTrader/pretty-object-organizer#readme"
+}
