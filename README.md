@@ -18,6 +18,7 @@ const logger = pretty(prettyConfig)
 logger.log({ reee: { x: 0, y: 123 } })
 ```
 Output:
+```
 
         reee
 *===================*
@@ -25,18 +26,19 @@ Output:
 2  > y:    123      |
 *===================*
 
+```
 You can change the config on the fly by using the changeConfig method.
 ```
 logger.changeConfig({ right: '<' })
-logger.log({ reee: { x: 0, y: 123 } })
+logger.log({ savings: 3.5, pay: 'not enough' })
 ```
 Output:
+```
 
-      reee
-*==============*
-1  > x:      0 <
-2  > y:    123 <
-*==============*
+*=======================*
+1  > savings:       3.5 <
+2  > pay:    not enough <
+*=======================*
 
-
+```
 This is mostly a meme as I was bored at work.
