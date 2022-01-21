@@ -135,11 +135,3 @@ const PrettyObjectOrganizer = (userConfig = {}) => {
 }
 
 module.exports = PrettyObjectOrganizer
-
-const t = PrettyObjectOrganizer()
-t.log({
-	ree: {
-		x: 'ree',
-		y: 'more ree',
-	},
-})
