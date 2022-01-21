@@ -35,11 +35,11 @@ const PrettyObjectOrganizer = (userConfig = {}) => {
 
 	const prettyPrint = (x) => {
 		let arr = Object.entries(x)
-		const tester = Object.entries(arr[0][1])
+		const tester = arr[0][1]
 		let title
-		if (tester.length > 0 && typeof arr[tester[0][0]] != 'string') {
+		if (typeof tester == 'object') {
 			title = arr[0][0]
-			arr = tester
+			arr = Object.entries(tester)
 		}
 		return makeOutput(arr, findLongest(arr), title)
 	}
