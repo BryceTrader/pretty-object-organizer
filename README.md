@@ -1,4 +1,4 @@
-# pretty-object-organizer
+# pretty-object-organizer (POO)
 
 Module to make logging objects to the console look a little better.
 Require the package and then assign it to a varible to begin logging.
