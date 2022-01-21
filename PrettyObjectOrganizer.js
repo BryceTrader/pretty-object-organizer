@@ -36,7 +36,6 @@ const PrettyObjectOrganizer = (userConfig = {}) => {
 	const prettyPrint = (x) => {
 		let arr = Object.entries(x)
 		const tester = Object.entries(arr[0][1])
-		console.log(tester)
 		let title
 		if (tester.length > 0 && typeof arr[tester[0][0]] != 'string') {
 			title = arr[0][0]
