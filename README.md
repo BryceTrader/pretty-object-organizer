@@ -41,4 +41,4 @@ Output:
 *=======================*
 
 ```
-This is mostly a meme as I was bored at work.
+This is mostly a meme as I was bored.
