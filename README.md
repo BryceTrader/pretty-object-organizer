@@ -1,6 +1,6 @@
 # pretty-object-organizer
 
-pretty-object-organizer (POO) is used to make logging objects to the console look a little better.
+pretty-object-organizer is used to make logging objects to the console look a little better.
 Require the package and then assign it to a varible to begin logging.
 You can use the defualt style or make your own with a simple object passed in.
 ```
